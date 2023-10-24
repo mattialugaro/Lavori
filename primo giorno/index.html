@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--metto info ausiliarie (titolo della pagina, descrizione)-->
+        <title>La mia prima pagina web</title>
+        <meta charset="utf-8">
+        <meta name="description" content="qui andrebbe la mia descrizione della mia pagina">
+        <meta name="viewport" content="width=devide-width, initial-scale=1">
+        <!--non esiste </meta> è un tag empty e a differenza di altri non chiude, qui passo il set di caratteri-->
+    </head>
+    <body>
+        <!--questo è un commento non si vede in video dal browser-->
+        <h1>Titolo Principale</h1>
+        <h2>Titolo principale</h2>
+        <h3>Titolo principale</h3>
+        <h4>Titolo principale</h4>
+        <h5>Titolo principale</h5>
+        <h6>Titolo principale</h6>
+        <!--h sta per heading (intestazione) sono elementi di blocco, occupano tutto lo spazio orizzontale e si posizionano uno sotto l'altro-->
+        <p>anche il tag p che serve a formattare i paragrafi è un tag di blocco</p>
+        <p>infatti se metto un secondo paragrafo si posiziona a capo</p>
+        <!--le lista o elenchi puntati, due tipi di liste ordinate o non ordinate-->
+        <ol type="a"><!--ordered list = lista ordinata, valori possibili: 1, a, A, i, I-->
+            <li>primo elemento</li> <!--list item = elementi di lista-->
+            <li>secondo elemento</li>
+            <li>terzo elemento</li>
+        </ol>
+        <ul type="square" ><!--unordered list = lista non ordinata, valori possibili circle, disc, square-->
+            <li>scrivere il codice in visual code</li>
+                <ul>
+                    <li>aggiungo nuovi tag</li>
+                    <li>metto i commenti per ircordare meglio</li>
+                    <li>memorizzo, imparo e controllo il codice</li>
+                </ul>
+            <li>salvare il file</li>
+            <li>ricaricare il browser e verificare gli aggiornamanti</li>
+        </ul>
+        <!--descrption list-->
+        <dl>
+            <dt>html</dt><!--description term-->
+            <dd>linguaggio di marcatura semantica</dd><!--description data-->
+            <dt>css</dt>
+            <dd>linguaggio di formattazione</dd>
+            <dt>browser</dt>
+            <dd>programma per la navigazione</dd>
+        </dl>
+        <address>tag semantico: ci dice che in questa porzione di contenuto ci sono info anagrafiche</address>
+        <blockquote cite="https://www.wikipedia.org">tag che racchiude una citazione con un relativo riferimanto</blockquote>
+        
+        <!--caratteri speciali--> <!--https://www.html.am/reference/html-special-characters.cfm-->
+        <p>3 è &lt;; di 4</p>
+        <p>4 è &gt;; di 3</p>
+        <p>html &amp; css</p>
+        <p>&quot; questo è il doppio apice</P>
+        <p>&apos; questo è l'apice singolo</p>
+        <p> &nbsp;&nbsp;&nbsp; questo è lo spazio bianco</p>
+        <p>&euro; euro &copy; copy &reg; trademark</p> <!--altri caratteri speciali comuni-->
+
+        <!--elementi di blocco vanno automicamente a capo-->
+        <!--elementi inline automaticamente uno accanto all'altro-->
+        <span>inserisco un testo</span>
+        <span>inserisco un altro testo</span>
+        <p>in questo bel paragrafo metto <b>quattro parole in grassetto</b> a scopo estetico.
+            esiste anche un <strong>altro modo</strong> di fare grassetti.
+        <br><!--manda a capo, altro tag empty -->
+        inoltre possiamo mettere una parola in <i>corsivo</i> per fini estetici oppure perchè è un contenuto <em>importante</em>
+        questi tag così descritti seguono le regole della w3caggiornati al <del>2015</del> <ins>2023</ins>
+    </p>
+        <!--https://www.w3schools.com/tags/--><!--tutti tag html aggiornati ad html5-->
+    <p>questo è un paragrafo inserito in tag <abbr title="hyper text markup lenguage">html</abbr>
+    grazie al tag <code>&lt;p &gt;</code> posso evidenzire contenuti anche grazie al tag <mark>mark</mark>
+    posso inserire delle citazione anche grazie al tag q <q>qui va la mia citazione, q sta per quitation</q>
+    un altro modo per inseriree delle citazione è con il tag <cite>inserisco la citazione</cite>
+    <!--blockquote citazione ma elemento di blocco, cite elemento in line-->
+    </p>
+    <!--ulteriori tag di formattazione-->
+    <p>questo e un <pre>testo non formattato</pre>. posso indicare dei tasti della tastiera <kbd>premere ctrl</kbd> 
+        oppure degli output <samp>f5 per aggiornare</samp></p>
+        <hr><!--horizontal row è una riga orizzontale, tag empty non ha chiusura-->
+        <p>quando parleremo di javascript ipareremo a usare le <var>variabili</var> 
+        se dovessimo fare dei testi matematici possiamo inserire degli <sup>apici</sup> o dei <sub>pendici</sub></p>
+            
+        <!--inserire immagine-->
+        <img src="img/mia-prima-immagine.png" alt="logo html" width="300"><!--height serve per l'altezza-->
+        <!--img tag empty, src è attributo necessario, percorso relativo per arrivare a img
+                alt = testo alternativo 1. accesibilità 2. posizionamento
+                width -> larghezza perchè no? 1. file alla dimensione esatta 2.responsive
+            formati possibili: jpg/jpeg, png/apng, gif, webp, AVIF
+            se l'immagine fosse stata allo stesso livello dell'html -> src="mia-prima-immagine.png"
+        -->
+        <!--immagine esterna-->
+        <img src="https://lf19-fe-tos.bytedgame.com/obj/g-marketing-assets-va/2023_10_08_10_07_56/210275496644_s519938.jpeg" alt="marvel snap" width="300">
+        <!--tag semantico per le immagini-->
+        <figure>
+            <img src="img/mia-prima-immagine.png" alt="logo html">
+            <figcaption>didascalia: foto del logo html</figcaption>
+        </figure>
+    </body>
+</html>
