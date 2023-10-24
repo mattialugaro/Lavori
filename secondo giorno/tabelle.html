@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelle</title>
+</head>
+<body>
+<table><!--tableè il tag parent: tutta la mia tabella sarà compresa tra l'apertura e chiusura del tag-->
+    <caption>presenze classe full stack 0623B</caption><!--intestazione della tabella-->
+    <tr><!--table row indica la riga della tabella, figlio di table-->
+        <th>nome</th><!--th table head è il tag che marca le celle della prima riga-->
+        <th>data</th>
+        <th>presenze</th>
+    </tr>
+    <tr>
+        <td>alessandro</td><!--td table data indica la singola cella della riga, è elemento child di tr-->
+        <td>24-10</td>
+        <td>si</td>
+    </tr>
+    <tr>
+        <td>alfonso</td>
+        <td>24-10</td>
+        <td>si</td>
+    </tr>
+    <tr>
+        <td>alessio</td>
+        <td>24-10</td>
+        <td>si</td>
+    </tr>
+    <tr>
+        <td colspan="3"></td><!--colspan unisce in orizzontale le celle, in questo caso 3-->
+                            <!--rowspan unisce in verticale le celle-->
+    </tr>
+</table>
+<!--
+    per le tabelle di grandi dimensioni inserisco nuovi tag
+    thead -> intestazione della tabella
+    tbody -> corpo della tabella
+    tfoot -> piè di pagine della tabella
+-->
+<table>
+    <thead>
+        <tr>
+            <th>competenze</th>
+            <th>livello</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>html</td>
+            <td>in grande crescita</td>
+        </tr>
+        <tr>
+            <td>css</td>
+            <td>buono</td>
+        </tr>
+        <tr>
+            <td>javascript</td>
+            <td>così così</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">livello medio: buono</td>
+        </tr>
+    </tfoot>
+</table>
+<!-- annidare tabelle-->
+<table>
+    <tr>
+        <th>studente</th>
+        <th>presenze</th>
+    </tr>
+    <tr>
+        <td>alice</td>
+        <td>si</td>
+    </tr>
+    <tr>
+        <td>alvise</td>
+        <td>
+            <table><!--si può mettere più tabelle dentro altre tabelle-->
+                <tr>
+                    <td>dalle 9 alle 10 si</td>
+                    <td>dalle 10 alle 11 no</td>
+                    <td>dalle 13 si</td>
+                </tr>
+            </table><!--table può essere genitore o child di td-->
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

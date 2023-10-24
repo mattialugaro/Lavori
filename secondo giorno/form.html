@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form method="get|post" action="#"> <!--form è il tag parent di tutti i form-->
+        <!--method indica il metodo con cui vengono passati i dati-->
+        <!--action indica che cosa fa il form (ad esempio pagina di destinazione)-->
+        <fieldset> <!--field set serve a raccogliere un set di campi-->
+            <legend>anagrafica</legend> <!--dà una leggenda a un set di campi-->
+            <label for="username">nome utente</label>
+            <!--etichetta:descrive i campi (serve per migliorare l'accessibilità)-->
+            <input type="text" name="username" id="username"> <!--name è necessario per passare i dati-->
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" placeholder="password">
+            <br>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="data">data</label>
+            <input type="date" id="data" name="data">
+            <br>
+            <label for="anni">anni:</label>
+            <input type="number" id="anni" name="anni" min="0" max="99">
+            <br>
+            <label for="orario">orario:</label>
+            <input type="time" id="orario" name="orario">
+            <br>
+            <label for="cv">carica il curriculum</label>
+            <input type="file" id="cv" name="cv">
+            <br>
+            <label for="range">range</label>
+            <input type="range" id="range" name="range" min="0" max="50" value="20" step="10">
+            <br>
+            <label for="nascosto">campo nascosto</label>
+            <input type="hidden" name="nascosto" id="nascosto">
+            <br>
+            <!--altri input type tel, mouth, week, image, color -->
+            <label for="autorizzo">autorizzo i miei dati personali</label>
+            <input type="checkbox" name="autorizzo" id="autorizzo" checked> <!--checked = flag in automatico -->
+            <br>
+            <label for="corso">corso</label>
+            <input type="text" placeholder="epicode">
+            <br>
+            <label for="utente">utente:</label>
+            <input type="text" required> <!--required campo obbligatorio-->
+            <br>
+            <label for="premium">passa a premium</label>
+            <input type="text" disabled> <!--campo disabilitato-->
+            <br>
+            <label for="punteggio">punteggio</label>
+            <input type="text" readonly value="99">
+        </fieldset>
+        <fieldset>
+            <legend>info ulteriori</legend>
+            <textarea name="commento" id="commento" placeholder="inserisci il messaggio" rows="5" cols="80"></textarea>
+            <br>
+            <!--scelte multiple-->
+            <label for="provincia">secgli la provincia</label>
+            <select name="provincia" id="provincia">
+                <option value=""></option> 
+                <optgroup label="lombardia">
+                    <option value="MI">Milano</option>
+                    <option value="VA">Varese</option>
+                    <option value="CO">Como</option>
+                </optgroup>
+                <optgroup label="emilia">
+                    <option value="Bo">Bologna</option>
+                    <option value="Re">Reggio Emilia</option>
+                </optgroup>
+            </select>
+            <br>
+            <label for="domanda-1">domanda 1</label>
+            <input type="radio" name="domanda-1" value="0">a)
+            <input type="radio" name="domanda-1" value="0">b)
+            <input type="radio" name="domanda-1" value="1">c)
+        </fieldset>
+        <button type="submit">invia il form</button>
+        <button type="reset">cancella i dati</button>
+        <button type="button">bottone fake</button>
+        <input type="submit" value="invia i dati">
+        <input type="reset" value="cancella i dati">
+        <input type="button" value="bottone fake">
+    </form>
+    
+</body>
+</html>

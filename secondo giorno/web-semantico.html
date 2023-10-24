@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web semantico</title>
+</head>
+<body>
+    <div id="contenitore-principale">
+        <header><!--intestazione della pagina-->
+            <img src="img/shonen-1024x576.webp" alt="logo">
+            <form action="#" method="#">
+                <input type="search" name="search" id="search" placeholder="search">
+            </form>
+        </header>
+        <nav><!--menu di navigazione-->
+            <ul>
+                <li><a href="#">home page</a></li>
+                <li><a href="#">chi siamo</a></li>
+                <li><a href="#">i nostri corsi</a>
+                    <ul>
+                        <li><a href="#">base</a></li>
+                        <li><a href="#">avanzato</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">lavora con noi</a></li>
+                <li><a href="#">iscriviti</a></li>
+            </ul>
+        </nav>
+        <main><!--contenuto principale-->
+            <article><!--articolo / qualcosa che ha senso e significato da solo-->
+                <h2>titolo del mio articolo</h2>
+                <h3>sottotitolo del mio articolo</h3>
+                <!--https://cupcakeipsum.com/ sito per testo già fatto-->
+                <p>Shortbread dragée chocolate bar carrot cake candy canes lemon drops jujubes dessert. Cotton candy sweet cupcake jelly-o candy canes marzipan. Biscuit soufflé gummies gingerbread caramels. Gummi bears brownie candy fruitcake muffin lemon drops.</p>
+                <p>Macaroon chupa chups dragée cake cake marshmallow chupa chups bonbon. Bear claw candy cake macaroon jelly beans marshmallow bear claw dessert icing. Sugar plum chocolate bar bonbon halvah shortbread tart. Gummi bears icing croissant brownie tootsie roll dessert</p>
+            </article>
+            <section> <!--una sezione separata-->
+                <form>
+                    <label for="for commento">lascia il tuo commento</label><br>
+                    <textarea name="commento" placeholder="commento"></textarea><br>
+                    <input type="submit">
+                </form>
+            </section>
+            <!--
+                main può contenere article e più section
+                section può contenere più article ma anche viceversa
+                article contenga header main footer (più rara)
+                article e section non sono in rapporto parent/child
+            -->
+        </main>
+        <aside><!--contenuto secodario-->
+            <ul>
+                <li><a href="#" title="corso-1"><img src="img/shonen-1024x576.webp"></a></li>
+                <li><a href="#" title="corso-2"><img src="img/shonen-1024x576.webp"></a></li>
+                <li><a href="#" title="corso-3"><img src="img/shonen-1024x576.webp"></a></li>
+            </ul>
+        </aside>
+        <footer><!--piè di pagina-->
+            <p>tutti i diritti riservati &copy;</p>
+        </footer>
+    </div>
+</body>
+</html>
