@@ -1,0 +1,74 @@
+* {font-family: Georgia, 'Times New Roman', Times, serif;}
+
+#logo {
+    width: 200px;
+    margin-left: 45%;
+}
+
+#intro {text-transform: uppercase;}
+
+
+#sottotitolo {margin-right: 22%;}
+
+#intestazione {text-align: center;
+                background-color: rgba(254, 229, 4, 0.1);
+                padding: 1em 0;
+                border-top: 2px solid rgb(228, 253, 2) ;
+}
+
+#focaccia {
+            border-radius: 20px;
+            width: 45%;
+}
+
+#sintesi {
+    border-left: 2px solid rgb(228, 253, 2);
+    margin-left: 30%;
+    padding-left: 10px;
+        }
+
+.riga {
+    margin-left: 30%;
+    margin-right: 22%;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+figcaption {
+    color: gray;
+    text-align: center;
+}
+
+#featured {
+    text-transform: uppercase;
+    color: #f00;
+    margin: 0
+}
+
+#fresh {
+    color: rgb(1, 236, 1);
+    text-decoration: underline;
+    margin: 0
+}
+
+.span {margin-left: 30%;}
+
+.div {padding-left: 30%;}
+
+#fine {
+    padding-left: 32%;
+    padding-right: 22%;
+}
+
+h2 {margin-left: 30%;}
+
+#simply {margin-left: 30%;}
+
+.lista {
+    padding-right: 26%;
+    line-height: 32px;
+}
