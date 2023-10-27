@@ -1,0 +1,188 @@
+/* Your styles here */
+
+body {
+    font-size: 1.2rem ;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.65;
+}
+
+.img {
+    text-align: center;
+    width: 200px;
+}
+
+.logo {
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#logo {width: 160px;}
+
+.sfondoBanner {
+    background-image: url('/images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#corso {
+    text-align: center;
+    line-height: 1.5;
+    display: inline;
+
+}
+
+#sfondo {
+    padding: 0;
+}
+
+#h2 {
+    color: #25a2c3;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 50px;
+}
+
+#intro {
+    padding: 20px;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+input{
+    color: white;
+    padding: 15px 25px;
+    background-color: #f04c2f;
+    border-radius: 5px;
+    border: none;
+}
+
+.submitpartiamo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.strong {
+    color: #25a2c3;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+section {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 1.65;
+    font-size: 1.2rem
+}
+
+section p {margin: 20px;}
+
+section div {margin: 0;}
+
+#notebook {
+    border-radius: 50%;
+    padding: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    width: 250px;
+    text-align: center;
+}
+
+article {
+    background-color: #e22d0e;
+    text-align: center;
+    line-height: 1.65
+}
+
+.article {
+    color:  white;
+    
+}
+
+#article {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#mario {font-size: 1.1em;}
+
+#ceo {
+    font-size: 0.7em;
+padding-bottom: 30px;
+}
+
+#cite {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.tit-cor {
+    text-decoration: none;
+    color: #25a2c3;
+    font-weight: bold;
+    padding: 20px;
+    margin: 50px;
+}
+
+.p-cor {
+    padding: 10px;
+    font-size: 1rem ;
+}
+
+.correlati {
+    padding: 0px;
+    border: 1px solid #dee1e3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    margin: 25px;
+}
+
+.foto {
+    width: 340px;
+    height: 220px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #25a2c3;
+    text-align: center;  
+}
+
+hr {
+    color: white;
+    margin: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#contatti {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.info {
+    color:  #c8e7f0;
+    font-size: 0.9em;
+}
+
+#numb {text-decoration: underline;}
+
+.a {color: #c8e7f0;}
+
+#copy {
+    padding-bottom: 70px;
+    font-size: 0.7em;
+}
