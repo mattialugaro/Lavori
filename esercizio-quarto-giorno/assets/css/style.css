@@ -1,0 +1,228 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    background-image: url(../img/sfondo.png);
+    background-position: center center;
+    font-size: 1em;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(18, 114, 141);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 1px 3px 3px black;
+    margin-bottom: 1.5em;
+    padding: 2em 1.5em;
+}
+
+h3 {
+    padding: 15px;
+}
+
+#logo {
+    width: 200px;
+    text-align: center;
+
+}
+
+.ancora {
+    text-decoration: none;
+    color: white;
+    line-height: 1.5;
+}
+
+/* MAIN */
+
+main {
+    background-color: #fff;
+    box-shadow: 0 3px 3px #444;
+    padding: 2em 1em;
+    margin-bottom:1.5em;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+span p {
+    color: darkgrey;
+    padding-bottom: 20px;
+}
+
+p b {
+    color: darkred;
+    font-weight: bold;
+}
+
+ul, ol {padding-left: 30px;}
+
+nav p {padding-top: 15px;}
+
+.list-item {list-style-type: disc;}
+
+code {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.list-num {list-style-type: decimal;}
+
+ol {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#p {padding-top: 20px;}
+
+#p1 {padding-bottom: 20px;}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+table {
+    text-align: center;
+    border-bottom: 1px solid blue;
+    margin-bottom: 2em;
+}
+
+thead tr {
+    background-color: #3f6bca;
+    color: #ffffff;
+    padding: 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+caption {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #3f6bca;
+}
+tbody td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* FORM */
+#sub {text-decoration: blue;}
+
+/* ELEMENTI NELL' ASIDE */
+
+p a{
+    color: rgb(0, 139, 203);
+    font-weight: bold;
+}
+
+#p-video {
+    padding-bottom: 30px;
+}
+
+iframe {
+    border-radius: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: lightgray;
+    margin-top: 24px;
+}
+
+section h4 {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section p {
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+input {
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px dashed #333;
+}
+
+button {
+    padding: 4px 7px;
+    background-color: #3f6bca;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+form {padding: 15px;}
+
+article h4 {
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+article a {
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+}
+
+article div {
+    background-color: lightgray;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid darkgrey;
+}
+
+article div p:last-child {
+    text-align: right;
+    font-size: 0.8em;
+    margin-top: 15px;
+}
+
+/* FOOTER */
+
+footer div {
+    background-color: rgb(21, 82, 80);
+    color: white;
+    padding: 20px 20px 30px;
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: 0 3px 3px #444;
+}
+
+address a {
+    color: rgb(255, 0, 251);
+    font-weight: bold;
+}
+
+#blog {padding-bottom: 20px;}
