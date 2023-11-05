@@ -1,0 +1,165 @@
+/* Your styles here */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9EDEE;
+}
+
+/* header */
+
+#int {
+    height: 50px;
+}
+
+#logo {
+    width: 100px;
+    background: #222F3F;
+    padding: 10px 92% 10px 20px;
+}
+
+nav {
+    background: #364759;
+    padding: 5px;
+}
+
+.nav-menu {
+    display: inline;
+    padding: 10px;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* main */
+
+#shop-card {
+    background: #F56600;
+    margin: 20px
+}
+
+#intro {
+    font-size: 0.7em;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#promo {
+    background-image: url(../images/bg-image.png);
+    background-size: contain;
+    background-size: 90%;
+    margin: 20px;
+}
+
+.text-promo {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#h-promo {
+    font-size: 1.8em;
+    padding-top: 60px;
+}
+
+#p-promo {
+    font-size: 0.9em;
+    padding-bottom: 40px;
+}
+
+/* section */
+
+section {
+    background-color: white;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 20px;
+    padding-top: 20px;
+    width: 97%;
+}
+
+.div {
+    display: inline;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#contenitore {
+    display: flex;
+    width: 98%;
+}
+
+
+.img-gift {
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px lightgray;
+    max-width: 90%;
+    height: 280px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#find {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#shop {
+    color: #095A66;
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: bold;
+
+}
+
+/* aside */
+
+.aside-img {
+    width: 97%;
+    height: 300px;
+    padding: 20px 20px 0 20px;
+}
+
+.descrition {
+    display: inline;
+    font-weight: bold;
+}
+
+.categories {
+    font-size: 0.8em;
+    color: #095A66;
+    font-weight: bold;
+    display: inline;
+    margin-left: 10px;
+}
+
+.inline {
+    text-align: center;
+    margin: 3px;
+    margin-bottom: 17px;
+}
+
+/* footer */
+
+#back {
+    color: white;
+    background: #364759;
+    padding: 20px 45%;
+    text-align: center;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#a-back {
+    color: white;
+    font-weight: bold;
+}
+
+#foot-logo {
+    text-align: center;
+    padding: 50px 45%;
+    background: #222F3F;
+    width: 150px;
+}
