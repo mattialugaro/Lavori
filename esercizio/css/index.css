@@ -1,0 +1,43 @@
+#new-task {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#new-task-btn {
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#clear-btn {
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: blue;
+    text-align: center;
+    padding: 18%;
+}
+
+body {
+    margin: 0;
+    background-color: blue;
+}
+
+#task {
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 15px;
+    text-align: center;
+
+}

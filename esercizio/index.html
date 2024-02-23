@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Esercizi JS</title>
-  </head>
-  <body>
-    <main>
-      <p>
-        Apri la console dagli strumenti di sviluppo per verificare le tue
-        risposte o scoprire eventuali errori!
-      </p>
-      <script>
-        var name1 = 'john';
-        var name2 = "John";
-        var result = name1 == name2;
-        var result2 = name1 == name2.toLowerCase();
-        console.log('name1= ' + name1 + ' name2=' + name2 + ' ,uguaglianza tra name1 e name2 è =' + result);
-        console.log('name1= ' + name1 + ' name2=' + name2 + ' ,uguaglianza tra name1 e name2 trasformato in lowercase è =' + result2);
-        console.log(name1 == name2);
-        console.log(name1 == name2.toLowerCase());
-      </script>
-    </main>
-    <script src="D1.js"></script>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <form>
+        <div>
+            <input type="text" id="new-task" placeholder="Aggiungi un task qui">
+            <button id="new-task-btn"><b>Crea</b></button>
+            <button id="clear-btn"><b>Pulisci</b></button>
+            <div id="task"></div>             
+        </div>
+    </form>
+</body>
+
 </html>

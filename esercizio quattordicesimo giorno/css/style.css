@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+table {
+    padding: 0 25%;
+
+}
+
+tr, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+button {
+    text-align: center;
+    background-color: lightgray;
+    border: none;
+    font-weight: bold;
+    margin: 30px;
+    padding: 5px 15px;
+}
+
+div {
+    text-align: center;
+}
